@@ -154,7 +154,7 @@
             $scope.editTransaction = function(transaction) {
               transaction.edit = true;
             }
-            $scope.headers = ['name','purchase','sold','proceeds','cost'];
+            $scope.headers = ['name','acquired','sold','proceeds','cost'];
             $scope.flagTransaction = function(transaction, index, transactions) {
               if (index == 0) {
                 $scope.error = false;
