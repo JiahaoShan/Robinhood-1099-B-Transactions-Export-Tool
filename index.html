@@ -68,10 +68,10 @@
 
               <div class="form-group">
                 <input type="file" id="inputElement">
-                <button ng-if="transactions" ng-class="{'btn-warning': error }" type="button" class="btn btn-primary btn-block" ng-click="export(transactions)">Export <span ng-if="error" style="color: red;">WITH ERROR</span></button>
+                <button ng-if="transactions" ng-class="{'btn-warning': error }" type="button" class="btn btn-primary btn-block" ng-click="export(transactions)">Export to CSV<span ng-if="error" style="color: red;"><strong> (ERROR EXISTED)</strong></span></button>
               </div>
 
-              <div id="transactions" ng-if="transactions">
+              <div id="transactions" ng-if="transactions" class="table-responsive">
                 <table class="table table-hover">
                   <thead>
                     <tr>
