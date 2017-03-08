@@ -2,7 +2,7 @@
 
 * Extract transactions from Robinhood Consolidated 1099 PDF
 
-https://jiahaoshan.github.io/Robinhood-1099-B-Transactions-Export-Tool/
+* https://jiahaoshan.github.io/Robinhood-1099-B-Transactions-Export-Tool/
 
 * Processes:
 1. Use <a href="https://mozilla.github.io/pdf.js/">pdf.js</a> to extract pages one by one from PDF
