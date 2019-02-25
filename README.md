@@ -1,5 +1,7 @@
 # Robinhood-1099-B-Transactions-Export-Tool
 
+* This tool is no longer maintained. 
+
 * Extract transactions from Robinhood Consolidated 1099 PDF
 
 * https://jiahaoshan.github.io/Robinhood-1099-B-Transactions-Export-Tool/
